@@ -17,4 +17,10 @@ class JoseCarlosGalvanKamey {
       cout << "I'm a " << profession << " passionate about continuous learning and competitive programming.\n";
     }
 };
+
+int main() {
+  JoseCarlosGalvanKamey dev;
+  dev.introduction;
+  return 0;
+}
 ```
