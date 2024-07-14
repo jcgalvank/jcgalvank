@@ -1,16 +1,20 @@
 ## Hi there 👋
 
-<!--
-**jcgalvank/jcgalvank** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```cpp
+#include <iostream>
+#include <vector>
 
-Here are some ideas to get you started:
+using namespace std;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class JoseCarlosGalvanKamey {
+  public:
+    string name = "Jose Carlos Galvan Kamey";
+    string profession = "Software Developer";
+    vector<string> technologies = {"CPP"}
+
+    void introduction() {
+      cout << "Hello, I'm " << name << " 👋\n";
+      cout << "I'm a " << profession << " passionate about continuous learning and competitive programming.\n";
+    }
+};
+```
