@@ -10,7 +10,7 @@ class JoseCarlosGalvanKamey {
   public:
     string name = "Jose Carlos Galvan Kamey";
     string profession = "Software Developer";
-    vector<string> technologies = {"CPP"}
+    vector<string> technologies = {"CPP", "Java"}
 
     void introduction() {
       cout << "Hello, I'm " << name << " 👋\n";
