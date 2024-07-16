@@ -9,7 +9,6 @@ class JoseCarlosGalvanKamey {
     public String profession = "Software Developer";
     public List<String> technologies = new ArrayList<>();
 
-    // Constructor to initialize technologies list
     public JoseCarlosGalvanKamey() {
         technologies.add("Java");
         technologies.add("CPP");
