@@ -16,7 +16,7 @@ class JoseCarlosGalvanKamey {
 
     public void introduction() {
         System.out.println("Hello, I'm " + name + " 👋");
-        System.out.println("I'm a " + profession + " passionate about continuous learning and competitive programming.");
+        System.out.println("I'm a " + profession + " passionate about competitive programming.");
     }
 
     public static void main(String[] args) {
