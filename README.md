@@ -1,26 +1,27 @@
 ## Hi there 👋
 
-```cpp
-#include <iostream>
-#include <vector>
-
-using namespace std;
+```java
+import java.util.List;
+import java.util.ArrayList;
 
 class JoseCarlosGalvanKamey {
-  public:
-    string name = "Jose Carlos Galvan Kamey";
-    string profession = "Software Developer";
-    vector<string> technologies = {"CPP", "Java"}
+    public String name = "Jose Carlos Galvan Kamey";
+    public String profession = "Software Developer";
+    public List<String> technologies = new ArrayList<>();
 
-    void introduction() {
-      cout << "Hello, I'm " << name << " 👋\n";
-      cout << "I'm a " << profession << " passionate about continuous learning and competitive programming.\n";
+    // Constructor to initialize technologies list
+    public JoseCarlosGalvanKamey() {
+        technologies.add("Java");
     }
-};
 
-int main() {
-  JoseCarlosGalvanKamey dev;
-  dev.introduction;
-  return 0;
+    public void introduction() {
+        System.out.println("Hello, I'm " + name + " 👋");
+        System.out.println("I'm a " + profession + " passionate about continuous learning and competitive programming.");
+    }
+
+    public static void main(String[] args) {
+        JoseCarlosGalvanKamey dev = new JoseCarlosGalvanKamey();
+        dev.introduction();
+    }
 }
 ```
