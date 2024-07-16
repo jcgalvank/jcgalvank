@@ -12,6 +12,7 @@ class JoseCarlosGalvanKamey {
     // Constructor to initialize technologies list
     public JoseCarlosGalvanKamey() {
         technologies.add("Java");
+        technologies.add("CPP");
     }
 
     public void introduction() {
